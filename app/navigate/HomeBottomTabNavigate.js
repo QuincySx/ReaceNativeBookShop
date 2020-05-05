@@ -15,11 +15,11 @@ export default class HomeBottomTabNavigate extends React.Component {
           tabBarIcon: ({focused, color, size}) => {
             let iconName;
             if (route.name === '首页') {
-              iconName = focused ? 'home' : 'home-outline';
+              iconName = focused ? 'ios-home' : 'ios-home';
             } else if (route.name === '关于') {
               iconName = focused
-                ? 'information-circle'
-                : 'information-circle-outline';
+                ? 'ios-information-circle'
+                : 'ios-information-circle';
             }
 
             // You can return any component that you like here!
